@@ -15,7 +15,7 @@ git clone https://github.com/username/repo.git
 
 ## 📄 Staging & Committing
 
-```bash
+``bash
 git status
 
 # Add a specific file
@@ -26,3 +26,15 @@ git add .
 
 # Commit with a message
 git commit -m "Describe your changes"
+
+## 🔼 Push & Pull
+
+``bash
+# Push changes to the main branch
+git push origin main
+
+# First push (sets upstream tracking)
+git push -u origin main
+
+# Pull updates from remote
+git pull origin main
