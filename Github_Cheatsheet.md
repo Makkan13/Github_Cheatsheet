@@ -12,8 +12,11 @@ git init
 
 # Clone an existing GitHub repository
 git clone https://github.com/username/repo.git
+
 ```
+
 ## 📄 Staging & Committing
+
 ```
 # check if any files are staged or committed
 git status       
