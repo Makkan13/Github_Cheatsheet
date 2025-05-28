@@ -14,11 +14,11 @@ git init
 git clone https://github.com/username/repo.git
 
 ```
-
+---
 ## 📄 Staging & Committing
 
-```
-# check if any files are staged or committed
+```bash
+# Check if any files are staged or committed
 git status       
      
 # Add a specific file
@@ -30,8 +30,10 @@ git add .
 # Commit with a message
 git commit -m "Describe your changes"
 ```
+---
 ## 🔼 Push & Pull
-```
+
+```bash
 # Push changes to the main branch
 git push origin main
 
@@ -40,9 +42,12 @@ git push -u origin main
 
 # Pull updates from remote
 git pull origin main
+
 ```
+---
 ## 🔙 Undo & Reset
-```
+
+```bash
 # Unstage file
 git restore --staged filename
 
@@ -55,19 +60,24 @@ git reset --soft HEAD~1
 # Hard reset to previous state (removes changes!)
 git reset --hard HEAD~1
 ```
+---
 ## 🔍 View History
-```
+
+```bash
 # Show commit history
 git log
 
 # One-line summary
 git log --oneline
 ```
+---
 ## 🛠️ Configuration
-```
+```bash
+
 # Set global username/email
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
 # Check current config
 git config --list
+```
