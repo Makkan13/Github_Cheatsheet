@@ -59,6 +59,9 @@ git restore --staged filename
 # Discard local changes
 git restore filename
 
+# same as git restore
+git checkout --filename
+
 # Undo the last commit (keep changes staged)
 git reset --soft HEAD~1
 
@@ -134,6 +137,9 @@ git remote add origin https://github.com/username/repo.git
 
 # Change the remote URL
 git remote set-url origin https://github.com/newuser/newrepo.git
+
+# Remove the remote repository
+git remote remove origin
 ```
 ---
 ## 🚨 Misc & Safety
