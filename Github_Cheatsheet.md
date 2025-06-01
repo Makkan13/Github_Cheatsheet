@@ -32,7 +32,7 @@ git add .
 # Commit with a message
 git commit -m "Describe your changes"
 
-# Amend the last commit (message or files)
+# Amend the last commit (message or files)  ->(replace the last commit with a new one)
 git commit --amend
 ```
 ---
